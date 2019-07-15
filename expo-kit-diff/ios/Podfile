@@ -4,7 +4,7 @@ platform :ios, '10.0'
 target 'expokit-diff' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
-    :tag => "ios/2.11.0",
+    :tag => "ios/2.11.2",
     :subspecs => [
       "Core"
     ],
@@ -73,9 +73,9 @@ target 'expokit-diff' do
 
 
       if ['Amplitude-iOS','Analytics','AppAuth','Branch','CocoaLumberjack','FBSDKCoreKit','FBSDKLoginKit','FBSDKShareKit','GPUImage','JKBigInteger2'].include? pod_name
-        target_installation_result.native_target.build_configurations.each do |config|
-          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
-        end
+      target_installation_result.native_target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+      end
       end
 
       # Can't specify this in the React podspec because we need to use those podspecs for detached
