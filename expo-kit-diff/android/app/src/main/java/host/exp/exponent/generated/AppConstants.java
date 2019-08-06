@@ -11,7 +11,7 @@ import host.exp.exponent.Constants;
 @DoNotStrip
 public class AppConstants {
 
-  public static final String VERSION_NAME = "2.11.4";
+  public static final String VERSION_NAME = "1.0.0";
   public static String INITIAL_URL = "exp://exp.host/@thunkable/expo-kit-diff";
   public static final String SHELL_APP_SCHEME = "expa8b201340b054a41b824040a2ea7c2ea";
   public static final String RELEASE_CHANNEL = "default";

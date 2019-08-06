@@ -4,7 +4,7 @@ platform :ios, '10.0'
 target 'expokit-diff' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
-    :tag => "ios/2.11.2",
+    :tag => "ios/2.12.1",
     :subspecs => [
       "Core"
     ],
@@ -15,7 +15,7 @@ target 'expokit-diff' do
   use_unimodules!(
     modules_paths: ['../node_modules'],
     exclude: [
-      'expo-face-detector',
+      'expo-in-app-purchases',
       'expo-payments-stripe',
     ],
   )
@@ -72,11 +72,11 @@ target 'expokit-diff' do
       end
 
 
-      if ['Amplitude-iOS','Analytics','AppAuth','Branch','CocoaLumberjack','FBSDKCoreKit','FBSDKLoginKit','FBSDKShareKit','GPUImage','JKBigInteger2'].include? pod_name
+
       target_installation_result.native_target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
       end
-      end
+
 
       # Can't specify this in the React podspec because we need to use those podspecs for detached
       # projects which don't reference ExponentCPP.
