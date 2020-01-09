@@ -3,7 +3,7 @@
     "name": "ExpoKit Diff",
     "slug": "expo-kit-diff",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
@@ -31,8 +31,8 @@
     },
     "isDetached": true,
     "detach": {
-      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.12.3-sdk34.0.0-cda064e7-fcc0-474f-8037-dcc80d126bce.tar.gz",
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.12.2-sdk34.0.0-767c7d3b-87b6-4f80-a9af-92ce67e2a49d.tar.gz"
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.14.2-sdk36.0.0-e055f8a6-47bf-455c-9f14-d5a631ea2dd3.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.14.0-sdk36.0.0-fb8689e6-fd42-4b18-b01f-ac2ef3bc8681.tar.gz"
     },
     "scheme": "expa8b201340b054a41b824040a2ea7c2ea",
     "android": {
