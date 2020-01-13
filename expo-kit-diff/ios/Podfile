@@ -4,7 +4,7 @@ platform :ios, '10.0'
 target 'expokit-diff' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
-    :tag => "ios/2.14.2",
+    :tag => "ios/2.14.3",
     :subspecs => [
       "Core"
     ],
