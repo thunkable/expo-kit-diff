@@ -1,32 +1,18 @@
 {
+  "name": "thunkableCompanion",
+  "displayName": "thunkableCompanion",
   "expo": {
     "name": "thunkablecompanion",
     "slug": "thunkableCompanion",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.thunkable.live"
-    },
     "android": {
       "package": "com.thunkable.live"
+    },
+    "ios": {
+      "bundleIdentifier": "com.thunkable.live"
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
   }

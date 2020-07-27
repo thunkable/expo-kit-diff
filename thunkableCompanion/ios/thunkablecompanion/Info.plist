@@ -37,40 +37,24 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Allow thunkablecompanion to access your calendar</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Allow thunkablecompanion to use the camera</string>
-	<key>NSContactsUsageDescription</key>
-	<string>Allow thunkablecompanion experiences to access your contacts</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow thunkablecompanion to use your location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow thunkablecompanion to use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow thunkablecompanion to use your location</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow thunkablecompanion to access your microphone</string>
-	<key>NSMotionUsageDescription</key>
-	<string>Allow thunkablecompanion to access your device's accelerometer</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give thunkablecompanion periences permission to save photos</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give thunkablecompanion periences permission to access your photos</string>
-	<key>NSRemindersUsageDescription</key>
-	<string>Allow thunkablecompanion to access your reminders</string>
+	<string></string>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>SplashScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
